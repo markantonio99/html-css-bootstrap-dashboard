@@ -1,0 +1,39 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .boo-app{
+    width: 1920;
+    display: flex;
+ }
+
+
+ .header_app{
+
+ }
+
+ .side_app{
+    min-width: 150px;
+    min-height: 1090px;
+ }
+
+ .main_app{
+
+
+ }
+
+ .debug-app{
+    padding: 20px;
+    border: 2px solid yellow;
+ }
