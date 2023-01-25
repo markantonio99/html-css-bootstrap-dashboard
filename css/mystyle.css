@@ -22,7 +22,9 @@ ul {
 .bs_ml_70 {
   margin-left: 70px;
 }
-
+.bs_ml_10 {
+    margin-left: 10px;
+  }
 
  .font_15 {
     font-size: 15px;
@@ -140,9 +142,17 @@ ul {
    padding-bottom: 10px;
 }
 
+.bs_offcanvas {
+    width: 600px !important;
+}
 
+.bs_btn_s {
+    width: 80px;
+}
 
-
+.bs_bck_b2 {
+    background-color: rgb(255, 179, 0);
+}
 
 
 

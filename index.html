@@ -148,13 +148,133 @@
                                               <div class="col-6">
                                                                               <button class="btn bs_clr_wh font_50 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-regular fa-square-plus"></i></button>
 
-                                                                              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                                                              <div class="offcanvas  bs_offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                                                                 <div class="offcanvas-header">
-                                                                                  <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                                                                                  <h5 id="offcanvasRightLabel">Inserisci un nuovo utente</h5>
                                                                                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                                                                 </div>
                                                                                 <div class="offcanvas-body">
-                                                                                
+                                                                                                                     
+                                                                                                          <form class="needs-validation" novalidate>
+                                                                                                              <div class="form-row row">
+                                                                                                                <div class="col-6">
+                                                                                                                  <label for="validationTooltip01">First name</label>
+                                                                                                                  <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="" required>
+                                                                                                                  <div class="valid-tooltip">
+                                                                                                                    Looks good!
+                                                                                                                  </div>
+                                                                                                                </div>
+                                                                                                                <div class="col-6"">
+                                                                                                                  <label for="validationTooltip02">Last name</label>
+                                                                                                                  <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="" required>
+                                                                                                                  <div class="valid-tooltip">
+                                                                                                                    Looks good!
+                                                                                                                  </div>
+                                                                                                                 </div>
+                                                                                                                <div class="col-6">
+                                                                                                                    <label for="validationTooltipUsername">Username</label>
+                                                                                                                       <div class="input-group">
+                                                                                                                              <div class="input-group-prepend">
+                                                                                                                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                                                                                                                      </div>
+                                                                                                                                          <input type="text" class="form-control" id="validationTooltipUsername" placeholder="" aria-describedby="validationTooltipUsernamePrepend" required>
+                                                                                                                                               <div class="invalid-tooltip">
+                                                                                                                                                 Please choose a unique and valid username.
+                                                                                                                                              </div>
+                                                                                                                                       </div>
+                                                                                                                       </div>
+                                                                                                                       <div class="col-6">
+                                                                                                                        <label for="inputPassword6">Password</label>
+                                                                                                                        <input type="password" id="inputPassword6" class="form-control mx-sm-2" aria-describedby="passwordHelpInline">
+                                                                                                                      
+                                                                                                                        
+                                                                                                              </div>
+
+
+                                                                                                              <div class="form-row row">
+                                                                                                                     <div class="col-12">
+                                                                                                                            <label for="validationTooltip03">Indirizzo</label>
+                                                                                                                            <input type="text" class="form-control" id="validationTooltip03" placeholder=" " required>
+                                                                                                                            <div class="invalid-tooltip">
+                                                                                                                                    Please provide a valid city.
+                                                                                                                            </div>
+                                                                                                                     </div>
+
+                                                                                                              <div class="row">     
+
+                                                                                                                    <div class="col-md-3 mb-3 lg-6 col-xl-6">
+                                                                                                                               <label for="validationTooltip04">Città</label>
+                                                                                                                               <input type="text" class="form-control" id="validationTooltip04" placeholder=" . " required>
+                                                                                                                                <div class="invalid-tooltip">
+                                                                                                                                       Please provide a valid state.
+                                                                                                                                </div>
+                                                                                                                     </div> 
+
+                                                                                                                     <div class="col-md-3 mb-3 lg-4 col-xl-4">
+                                                                                                                         <label for="inputState">Stato</label>
+                                                                                                                         <select id="inputState" class="form-control">
+                                                                                                                            <option selected>Scegli</option>
+                                                                                                                            <option>...</option>
+                                                                                                                         </select>
+                                                                                                                      </div>
+
+                                                                                                                      <div class="col-md-2 mb-2 col-xl-2">
+                                                                                                                                <label for="validationTooltip05">Cap</label>
+                                                                                                                                <input type="text" class="form-control" id="validationTooltip05" placeholder="" required>
+                                                                                                                                 <div class="invalid-tooltip">
+                                                                                                                                            Please provide a valid zip.
+                                                                                                                                 </div>
+                                                                                                                      </div>
+
+                                                                                                                       <div class="col-12">
+                                                                                                                        <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                                                                                                                        <label class="custom-file-label" for="validatedCustomFile"></label>
+                                                                                                                        <div class="invalid-feedback">Example invalid custom file feedback</div>
+                                                                                                                       </div>
+
+                                                                                                              </div>
+
+                                                                                                              <div class="form-check py-4">
+                                                                                                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                                                                                                <label class="form-check-label" for="invalidCheck">
+                                                                                                                  Agree to terms and conditions
+                                                                                                                </label>
+                                                                                                                <div class="invalid-feedback">
+                                                                                                                  You must agree before submitting.
+                                                                                                                </div>
+                                                                                                              </div>
+                                                                                                            </div>
+                                                                                                            <button class="btn bs_btn_s bs_ml_10  btn-primary" type="submit">Salva</button>
+                                                                                                            <button class="btn bs_btn_s bs_ml_10 px-3 bs_bck_b2 " type="submit">Svuota</button>
+
+                                                                                                          </form>
+                                                                                                          
+                                                                                                          <script>
+                                                                                                          // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                                                                                          (function() {
+                                                                                                            'use strict';
+                                                                                                            window.addEventListener('load', function() {
+                                                                                                              // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                                                                                              var forms = document.getElementsByClassName('needs-validation');
+                                                                                                              // Loop over them and prevent submission
+                                                                                                              var validation = Array.prototype.filter.call(forms, function(form) {
+                                                                                                                form.addEventListener('submit', function(event) {
+                                                                                                                  if (form.checkValidity() === false) {
+                                                                                                                    event.preventDefault();
+                                                                                                                    event.stopPropagation();
+                                                                                                                  }
+                                                                                                                  form.classList.add('was-validated');
+                                                                                                                }, false);
+                                                                                                              });
+                                                                                                            }, false);
+                                                                                                          })();
+                                                                                                          </script>
+                                                                                                            
+
+                                                                                                           
+                                                                                                            </form>
+
+
                                                                                 </div>
                                                                               </div>
                                             </div>
