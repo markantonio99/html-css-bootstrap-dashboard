@@ -26,6 +26,13 @@ ul {
     margin-left: 10px;
   }
 
+  .bs_padd_y {
+    padding: 20px 0;
+  }
+
+ 
+
+
  .font_15 {
     font-size: 15px;
 }
@@ -33,6 +40,8 @@ ul {
 .font_22 {
     font-size: 22px;
 }
+
+ 
 
 
 .font_24 {
@@ -156,22 +165,151 @@ ul {
 
 
 
+/* CARD CARD CARD >>>>>>>>>>>>>>>>>>>*/
+/* CARD CARD CARD >>>>>>>>>>>>>>>>>>>*/
+/* CARD CARD CARD >>>>>>>>>>>>>>>>>>>*/
+
+.bs_icon_card {
+    background-color: rgb(255, 79, 35);
+    color: white;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+
+.bs_fnt_s {
+    font-size: 20px;
+}
+.font_22_card{
+   font-size: 22px;
+}
+
+.bs_brd_t {
+    border-top: 5 px solid black;
+}
+
+.bs_brd_b {
+    border-bottom: 5 px solid black;
+}
+
+
+.bs_bage_done {
+    background-color: rgb(0, 70, 0);
+    color: white;
+    font-size: 18px;
+    padding: 7px 10px;
+    border-radius: 90px;
+ 
+ }
+
+.bs_border {
+    border: 2px solid black;
+    padding: 2px;
+}
+
+/* CARD CARD CARD >>>>>>>RESPONSIVE>>>>>>>>>>>>*/
+/* CARD CARD CARD >>>>>>>RESPONSIVE>>>>>>>>>>>>*/
+/* CARD CARD CARD >>>>>>>RESPONSIVE>>>>>>>>>>>>*/
+
+@media only screen and (max-width: 1950px ){
+
+
+    .font_22_card{
+        font-size: 18px;
+     }
+
+
+    .bs_fnt_s{
+        font-size: 18px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1500px ){
+
+
+    .font_22_card{
+        font-size: 13px;
+     }
+
+
+    .bs_fnt_s{
+        font-size: 18px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1300px ){
+
+
+    .font_22_card{
+        font-size: 18px;
+     }
+
+
+    .bs_fnt_s{
+        font-size: 18px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1100px ){
+
+
+    .font_22_card{
+        font-size: 3px !important;
+     }
+
+
+    .bs_fnt_s{
+        font-size: 5px !important;
+    }
+
+    .bs_bage_done {
+        background-color: rgb(0, 70, 0);
+        color: white;
+        font-size: 5px;
+        padding: 3px 6px;
+        border-radius: 90px;
+     
+     }
+
+}
+
+@media only screen and (max-width: 576px ){
+
+
+    .bs_icon_card {
+        padding: 0px;
+        padding: 0;
+
+    }
 
 
 
+    .font_22_card{
+        font-size: 5px;
+     }
 
 
+    .bs_fnt_s{
+        font-size: 7px;
+    }
 
+    .bs_bage_done {
+        background-color: rgb(0, 70, 0);
+        color: white;
+        font-size: 7px;
+        padding: 3px 6px;
+        border-radius: 90px;
+     
+     }
+     
 
-
-
-
-
-
-
-
-
-
-
-
-
+     .py-2 .px-3{
+        margin: 0;
+     }
+}
